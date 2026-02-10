@@ -1,0 +1,4 @@
+environment = "dev"
+owner       = "platform"
+cost_center = "platform-engineering"
+aws_region  = "us-east-1"
