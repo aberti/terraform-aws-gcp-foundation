@@ -27,3 +27,6 @@ terraform validate
 1. Remote state + locking (S3/DynamoDB, GCS)
 2. OPA policy checks for Terraform plan
 3. Cost and SLO dashboard bootstrap
+
+## Plan Source
+Plan source is private: `platform-lab-tracker-private/plan/MASTER-PLAN.md`.

@@ -1,24 +1,44 @@
-# Terraform local/state files
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
+
+# Local env and secrets
+.env
+.env.*
+*.local
+secrets/*
+!secrets/.keepdir
+
+# Local artifacts
+.cache/*
+!.cache/.keepdir
+.tmp/*
+!.tmp/.keepdir
+logs/*
+!logs/.keepdir
+artifacts/*
+!artifacts/.keepdir
+reports/*
+!reports/.keepdir
+
+# Python/node leftovers
+__pycache__/
+*.pyc
+node_modules/
+
+
+# Terraform
 .terraform/
 *.tfstate
 *.tfstate.*
+.terraform.lock.hcl
 crash.log
 crash.*.log
-.terraform.lock.hcl
-
-# Variable files that may contain sensitive values
 *.tfvars
 *.tfvars.json
 !*.tfvars.example
-
-# Local overrides
 override.tf
 override.tf.json
 *_override.tf
 *_override.tf.json
-
-# Secrets and env files
-.env
-.env.*
-*.pem
-*.key
