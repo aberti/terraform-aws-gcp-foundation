@@ -38,3 +38,8 @@ Ship an AWS+GCP Terraform foundation that is secure, observable, and policy-enfo
 - Checkpoint A: 2 reusable modules and 2 working env entrypoints
 - Checkpoint B: policy checks enforced on PRs
 - Checkpoint C: first reliability dashboard with at least 3 SLO indicators
+
+## Tracking Cadence
+- Session log: `docs/lab-log.md` updated every 60-120 minute session
+- Visibility decisions: `docs/visibility-plan.md` reviewed before each publish
+- Weekly checkpoint: one public artifact + one private tracker update
